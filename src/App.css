@@ -1,6 +1,56 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+body{
+  background-image: linear-gradient(to bottom right,#7400b8,#48bfe3);
 }
-p{
-  
+.App {
+  margin: 100px auto;
+  width: 480px;
+  text-align: center;
+  padding: 50px;
+  border-radius: 50px;
+  font-family: 'Sniglet', cursive;
+  background-image: linear-gradient(to bottom right,#5390d9,#6930c3);
+  border: 3px solid #7400b8;
+}
+.numbers{
+  font-size: 26px;
+}
+.display{
+  margin-top: 50px;
+  border: 3px solid #7400b8;
+  border-radius: 20px;
+}
+.alert{
+  color: #ef476f;
+}
+.settings,.buttons{
+  display: flex;
+}
+.break,.session,#play,#restart{
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+#play,#restart{
+  margin-top: 10%;
+}
+.up,.down{
+  width: 20%;
+  margin: auto;
+  border-radius: 50%;
+}
+.button{
+  cursor:pointer;
+  background-image: linear-gradient(to bottom right, #4ea8de,#80ffdb);
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+.credits{
+  margin-top:-60px;
+  margin-bottom:40px;
+  padding:0;
+  text-align: center;
+  font-family: 'Sniglet', cursive;
 }

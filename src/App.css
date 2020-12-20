@@ -2,15 +2,29 @@
 body{
   background-image: linear-gradient(to bottom right,#7400b8,#48bfe3);
 }
-.App {
-  margin: 100px auto;
-  width: 480px;
-  text-align: center;
-  padding: 50px;
-  border-radius: 50px;
-  font-family: 'Sniglet', cursive;
-  background-image: linear-gradient(to bottom right,#5390d9,#6930c3);
-  border: 3px solid #7400b8;
+@media (min-width: 480px) {
+  .App {
+    margin: 100px auto;
+    width: 480px;
+    text-align: center;
+    padding: 50px;
+    border-radius: 50px;
+    font-family: 'Sniglet', cursive;
+    background-image: linear-gradient(to bottom right,#5390d9,#6930c3);
+    border: 3px solid #7400b8;
+  }
+}
+@media (max-width: 480px) {
+  .App {
+    margin: 100px auto;
+    width: 240px;
+    text-align: center;
+    padding: 50px;
+    border-radius: 50px;
+    font-family: 'Sniglet', cursive;
+    background-image: linear-gradient(to bottom right,#5390d9,#6930c3);
+    border: 3px solid #7400b8;
+  }
 }
 .numbers{
   font-size: 26px;
